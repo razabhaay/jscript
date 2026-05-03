@@ -71,15 +71,20 @@ let allHeros = top4Heros.concat(young2Heros)
 
 //type2
 let all_Heros = [...top4Heros, ...young2Heros]
-// console.log(all_Heros);
+console.log(all_Heros); 
 
-//type3
+//type3 not use professionally
+// console.log(Array.of(top4Heros, young2Heros)); 
+
+
 const deepArr = [1, 2, 3, [4, 5, [6]], 7, 8, 9]
 
 // in flat U can give how many lairs should be merg like 1,2,3 or Infinity to all merg
-let mergDeepArr = deepArr.flat(2)
-mergDeepArr = deepArr.flat(Infinity)
+let mergDeepArr = deepArr.flat(1)
+let mergeDeepArr = deepArr.flat(Infinity)
 // console.log(mergDeepArr);
+// console.log(mergeDeepArr);
+
 
 //.isArray is use to question - is this array it will ans. in boolean_true/false
 // console.log(Array.isArray(['Mohammad', 'Raza']));
@@ -89,12 +94,16 @@ mergDeepArr = deepArr.flat(Infinity)
 // console.log(Array.from('Mohammad Raza'));
 
 //advanced 
-console.log(Array.from({name: 'Mohammad Raza'})) //mostly use in backend
+// console.log(Array.from({name: 'Mohammad Raza'})) //mostly use in backend
 
 let score0 = 99
 let score1 = 100
 let score2 = 199
 
 //use .of to convert to array 
-console.log(Array.of(score0, score2, score1));
+// console.log(Array.of(score0, score2, score1));
+
+//experimenting for same output
+// let sorce = [score0, score1, score2];
+// console.log(sorce);
 
