@@ -77,7 +77,7 @@ aUser.funCall = function(){
 // console.log(aUser);
 
 
-//+++++++++++++
+//+++++++++++++++++++++++++++++++++++++++++++++
 
 //there are 2 types to declair object
 
@@ -106,9 +106,9 @@ user2Object.isLoggedIn = false
 
 //if we R printing some thing that doesn't exist it will crash, to avoid this situation U can search it
 //but it must be search as it is
-console.log(user2Object.hasOwnProperty("isLoggedIn"));
+// console.log(user2Object.hasOwnProperty("isLoggedIn"));
 //if a single letter missed it will ans in false 
-console.log(user2Object.hasOwnProperty("isLogged"));
+// console.log(user2Object.hasOwnProperty("isLogged"));
 
 //type2.2
 let regularUser = {
@@ -181,3 +181,53 @@ let objInArr = [
 // console.log(objInArr);
 // console.log(objInArr[1]);
 // console.log(objInArr[3].name);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//type1 (simple way to )
+let course = {
+    coursename: "javaScript",
+    price: '382',
+    courseInstructor:'Raza'
+}
+// console.log(course.price);
+
+
+//type2 (object destructuring)
+// let {price} = course
+// console.log(price);
+
+//type3 (object destructuring)
+let {price: paisa} = course
+console.log(paisa);
+
+
+
+//you can tell api's are automation files that work by own after giving logic to them by coder
+//api almost return in json
+//json file structure contains keys and values but keys are also in string
+//example (ignore errors)
+
+// json in object
+// {
+//     'name': 'Raza',
+//     "coursename": 'javascript',
+//     'price' : "free"
+// }
+
+// json in object that is in the array
+[
+    {'name': 'Raza',
+//     "coursename": 'javascript',
+//     'price' : "free"},
+    {'name': 'Raza',
+//     "coursename": 'javascript',
+//     'price' : "free"},
+    {'name': 'Raza',
+//     "coursename": 'javascript',
+//     'price' : "free"}
+]
+
+// famous api website - randomuser me api
+// json formatter is website to understand about json
