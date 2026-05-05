@@ -204,30 +204,18 @@ console.log(paisa);
 
 
 
-//you can tell api's are automation files that work by own after giving logic to them by coder
-//api almost return in json
-//json file structure contains keys and values but keys are also in string
-//example (ignore errors)
 
-// json in object
-// {
-//     'name': 'Raza',
-//     "coursename": 'javascript',
-//     'price' : "free"
-// }
 
-// json in object that is in the array
-[
-    {'name': 'Raza',
-//     "coursename": 'javascript',
-//     'price' : "free"},
-    {'name': 'Raza',
-//     "coursename": 'javascript',
-//     'price' : "free"},
-    {'name': 'Raza',
-//     "coursename": 'javascript',
-//     'price' : "free"}
-]
 
-// famous api website - randomuser me api
-// json formatter is website to understand about json
+
+
+
+
+
+
+
+
+
+
+
+
