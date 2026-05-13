@@ -125,11 +125,13 @@
 
 // //Map
 // //Map is use for unique value and ordered form
+
 // let contries = new Map()
 // contries.set('IN', 'India')
 // contries.set('IQ', 'Iraq')
 // contries.set('YM', 'Yaman')
 // contries.set('PL', 'Palastine')
+
 // //here we are giving india double but Map will only print once and unique 
 // contries.set('IN', 'India')
 
@@ -137,6 +139,7 @@
 
 
 // //Map using forof with destructuring array 
+// // Map can't runing in forin loop
 // let contries = new Map()
 // contries.set('IN', 'India')
 // contries.set('IQ', 'Iraq')
@@ -150,14 +153,11 @@
 
 
 
-// learn - Object using forof loop
-
-
 //+++++++++++
 //forin loop
 // this is specially use for Objects like - strings in Object or array in Object
 
-//forin loop using Object
+// // forin loop using Object
 // const myobject = {
 //     js: 'javascrip',
 //     cpp: 'c++',
@@ -180,7 +180,7 @@
 
 //foreach loop
 
-let codelang = ['cpp', 'js', 'java', 'pathon']
+// let codelang = ['cpp', 'js', 'java', 'pathon']
 
 // //type1
 // codelang.forEach(function (lang) {
@@ -193,6 +193,7 @@ let codelang = ['cpp', 'js', 'java', 'pathon']
 // })
 
 // //type3
+// //callback function
 // // this is mostly use for refrencing
 // function printMe(lang){
 //     console.log(lang);
@@ -206,29 +207,29 @@ let codelang = ['cpp', 'js', 'java', 'pathon']
 // })
 
 
-//using foreach U can access value of the Object in the Array 
+// //using foreach U can access value of the Object in the Array 
 
-const myCodingArray = [
-    {
-        langName : 'Java',
-        langFileName: '.java'
-    },
-    {
-        langName : 'JavaScript',
-        langFileName: '.js'
-    },
-    {
-        langName : 'Python',
-        langFileName: '.py'
-    },
-    {
-        langName : 'c++',
-        langFileName: '.cpp'
-    }
-]
+// const myCodingArray = [
+//     {
+//         langName : 'Java',
+//         langFileName: '.java'
+//     },
+//     {
+//         langName : 'JavaScript',
+//         langFileName: '.js'
+//     },
+//     {
+//         langName : 'Python',
+//         langFileName: '.py'
+//     },
+//     {
+//         langName : 'c++',
+//         langFileName: '.cpp'
+//     }
+// ]
 
-myCodingArray.forEach((item) => {
-    //using foreach U can access value of the Object that is stored in the Array
-    //this is use in database to astract value from hundreds of values from the object that is inside the array
-    console.log(item.langFileName,':-', item.langName );
-})
+// myCodingArray.forEach((item) => {
+//     //using foreach U can access value of the Object that is stored in the Array
+//     //this is use in database to astract value from hundreds of values from the object that is inside the array
+//     console.log(item.langFileName,':-', item.langName );
+// })
